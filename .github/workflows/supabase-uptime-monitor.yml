@@ -1,4 +1,4 @@
-name: Supabase Activity Scheduler
+name: Supabase Uptime Monitor
 
 on:
   schedule:
@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Send HTTP Request
-        run: curl https://<YOUR_DOMAIN_NAME>/api/etc/supabase-activity-scheduler
+        run: curl https://<YOUR_DOMAIN_NAME>/api/etc/supabase-uptime-monitor
