@@ -1,4 +1,4 @@
-// app/api/etc/supabase-activity-scheduler/route.ts
+// app/api/etc/supabase-uptime-monitor/route.ts
 
 import { createClient } from "@supabase/supabase-js"
 
