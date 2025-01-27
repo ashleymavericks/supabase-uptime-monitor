@@ -1,8 +1,8 @@
 name: Supabase Uptime Monitor
 
 on:
-  schedule:
-    - cron: "0 0 * * 0,3" # Runs every Sunday and Wednesday
+  #schedule:
+  #  - cron: "0 0 * * 0,3" # Runs every Sunday and Wednesday
   workflow_dispatch:
 
 jobs:
